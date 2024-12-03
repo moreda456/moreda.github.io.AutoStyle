@@ -1,0 +1,211 @@
+
+html{
+    scroll-behavior: smooth;
+  
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    position: fixed;
+}
+
+.logo {
+    width: 120px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+h2{
+   font-size: 40px;
+}
+
+h2:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+
+.tipos-de-coches {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 20px 0;
+    
+}
+
+.cuadrado-de-fotos{
+    border: solid 2px #333;
+    width: 50%;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #333 ;
+    margin-left: 25%;
+}
+
+.tipos-de-coches li {
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tipos-de-coches li:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+h3{
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+h3:hover{
+    transition:0.5s;
+    text-decoration: underline;
+}
+
+.nosotros-section{
+    font-family:d;
+    font-size: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 90px;
+}
+
+.boton{
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    box-shadow: 0px 0px 20px white ;
+}
+
+.encuentra{
+    font-size: 30px;
+    margin-left: -55%;
+}
+
+/* Ajustes para las tarjetas en el footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 90px;
+}
+
+.boton {
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    box-shadow: 0px 0px 20px white;
+}
+
+.encuentra {
+    font-size: 30px;
+}
+
+footer .tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer .tarjeta {
+    border: solid 2px;
+    border-color: rgb(107, 107, 107);
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgb(107, 107, 107);
+    box-shadow: 0px 0px 20px white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 15px;
+    text-align: left;
+}
+
+footer .tarjeta:hover{
+    box-shadow: 0px 0px 30px black;
+}
+
+h4{
+    font-size: 40px;
+}
+
+h4:hover{
+    text-decoration: underline;
+}
+
+.hr{
+    box-shadow: 0px 0px 30px white;
+}
+
+

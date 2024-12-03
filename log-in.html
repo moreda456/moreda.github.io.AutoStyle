@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN</title>
+    <link rel="shortcut icon" href="concept-automotive-vehicle-dealership-logo-260nw-596587055-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="log-in.css">
+</head>
+<body>
+    <center>
+        <div>
+            <div class="cuadrado">
+                <h1>LOG IN</h1>
+                <form action="">
+                    <div class="input-group">
+                        <label for="user"></label>  
+                        <input class="user" type="text" placeholder="Username" title="Username" id="user"><br>  
+                    </div>
+                    <div class="input-group">
+                        <label for="pass"></label>
+                        <input class="pass" type="password" placeholder="Password" title="password" id="pass"><br> 
+                    </div>
+                    <button id="boton" class="boton"><a href="">Log in</a></button> <br>
+                    <div class="politica-container">
+                        <p class="politica">Accept privacy policy</p>
+                        <input class="politica-chek" type="checkbox">
+                    </div>
+                    <a href="https://accounts.google.com/accountchooser/signinchooser?..." target="_blank" class="forgotPassword">Forgot Password?</a>
+                    <hr>
+                    <a href="registrarse.html">Create an Account</a>
+                </form>
+            </div>
+        </div>
+    </center>
+
+    <script>
+        const user = document.getElementById('user');
+        const pass = document.getElementById('pass');
+        const boton = document.getElementById('boton');
+        const contra = "car-style";
+
+        boton.addEventListener('click', function(event) {
+            event.preventDefault();
+            if (user.value === "car-style" && pass.value === contra) {
+                window.location.href = "web.html";
+            } else {
+                alert("Password or Username incorrect.");
+            }
+        });
+    </script>
+</body>
+</html>
